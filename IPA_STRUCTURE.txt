@@ -1,0 +1,10 @@
+REAL IPA TARGET
+
+WeatherShare-unsigned.ipa
+└── Payload/
+    └── WeatherShare.app/
+        ├── Info.plist
+        ├── _CodeSignature/ (appears after signing)
+        └── WeatherShare (Mach-O arm64 executable)
+
+IMPORTANT: GitHub Actions uses upload-artifact@v7 with archive:false. This uploads the single IPA as-is instead of creating an outer artifact ZIP.

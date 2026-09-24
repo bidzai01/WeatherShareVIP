@@ -1,0 +1,7 @@
+1. Create a public GitHub repository.
+2. Upload the contents of this folder.
+3. Actions -> Build WeatherShare — REAL IPA -> Run workflow.
+4. Wait for green completion.
+5. Download the artifact named WeatherShare-unsigned.ipa.
+6. Do NOT extract/re-zip it and do NOT import the source ZIP into ESign.
+7. Sign that exact .ipa with your own authorized certificate/profile.
